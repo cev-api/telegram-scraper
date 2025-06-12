@@ -1,6 +1,6 @@
 # 👩‍🌾 Telegram Chat Scraper (Telescraper)
 
-A simple and customizable **Telegram group message scraper** written in Python, using [Telethon](https://github.com/LonamiWebs/Telethon). It supports **historical message archiving**, **live message capturing**, and flexible **output formats** (CSV and plain text).
+A simple and customizable **Telegram chat/group message scraper** written in Python, using [Telethon](https://github.com/LonamiWebs/Telethon). It supports **historical message archiving**, **live message capturing**, and flexible **output formats** (CSV and plain text).
 
 ---
 
