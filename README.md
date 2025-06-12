@@ -14,6 +14,7 @@ A simple and customizable **Telegram group message scraper** written in Python, 
 - 🚫 Ignore specific users by username
 - 💾 Automatically resumes previous sessions
 - 💡 Intuitive CLI-based user interface
+- 🕵️ Ideal for OSINT use
 
 ---
 
@@ -47,9 +48,9 @@ Inside the script, modify:
     OUTPUT_MODE = 3
 
 Mode Description:
-- 1	= Pretty Text Only
-- 2	= CSV Only
-- 3	= Both CSV and Text (Default)
+- `1`	— Pretty Text Only
+- `2`	— CSV Only
+- `3`	— Both CSV and Text (Default)
 
 You can also set a more permanent ignore list by changing:
 
