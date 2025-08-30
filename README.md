@@ -4,27 +4,26 @@ A simple and customizable **Telegram chat/group message scraper** written in Pyt
 
 ---
 
-## ✨ Features
+## Features
 
-- 📥 **Scrape messages from any Telegram group/channel**
-- ⏳ **Read historical messages** or 🟢 **monitor live messages**
-- 📁 Saves per-user message history into:
+- **Scrape messages from any Telegram group/channel**
+- **Read historical messages** or **monitor live messages**
+- Saves per-user message history into:
   - `TXT` files (pretty printed)
   - `CSV` files (structured for analysis)
-- 🚫 Ignore specific users by username
-- 💾 Automatically resumes previous sessions
-- 💡 Intuitive CLI-based user interface
-- 🕵️ Ideal for OSINT use
+- Ignore specific users by username
+- Automatically resumes previous sessions
+- Ideal for OSINT use
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ![screenshot](https://i.imgur.com/YLj7Cvz.png)
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### Add Your Telegram API Credentials
 
@@ -41,7 +40,7 @@ Get them from [https://my.telegram.org](https://my.telegram.org):
 4. Copy your `api_id` and `api_hash`.
 5. Put them into the python script
 
-## 📋 Script Options
+## Script Options
 
 Inside the script, modify:
 
@@ -56,7 +55,7 @@ You can also set a more permanent ignore list by changing:
 
     IGNORE_LIST = []
 
-## 💻 In App Options
+## In App Options
 
 The first time you open the app it will ask you for your Telegram phone number and code, then it will allow you to:
 
@@ -69,7 +68,7 @@ The first time you open the app it will ask you for your Telegram phone number a
 
 When selecting a chat/group session it will ask you again for your Telegram phone number and code, this will be saved for that session and it won't ask you again when returning to it.
 
-# 📤 Output Structure
+# Output Structure
 
 The output structure consists of a main directory named Chat_Session_Name_GroupID, which contains the following files and subdirectories:
 
@@ -80,7 +79,7 @@ The output structure consists of a main directory named Chat_Session_Name_GroupI
   - A text file named 123456789-john-doe.txt that stores the user's messages in a readable text format.
   - A CSV file named 123456789-john-doe.csv that stores the user's messages in a structured CSV format.
 
-# 💡 Notes
+# Notes
 
 - Make sure your Telegram account is active and not restricted.
 - You can use this tool only on groups/channels you're a member of.
